@@ -22,6 +22,9 @@ function roll_dice(){
     else if(dice_num2>dice_num1){
         document.querySelector("h1").textContent="Player 2 Wins!"
     }
+    else if(dice_num2==dice_num1){
+        document.querySelector("h1").textContent="It's a Tie!"
+    }
 }
 
 function reset(){
